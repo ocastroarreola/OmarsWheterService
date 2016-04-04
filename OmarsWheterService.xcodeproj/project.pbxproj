@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D52DBF01CAE199400BFB423 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D52DBED1CAE199400BFB423 /* DetailViewController.m */; };
+		1D52DBF11CAE199400BFB423 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D52DBEF1CAE199400BFB423 /* MasterViewController.m */; };
+		1D52DBF61CAE19F800BFB423 /* OmarsWheterService.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1D52DBF41CAE19F800BFB423 /* OmarsWheterService.xcdatamodeld */; };
+		1D52DBF91CAE1B1300BFB423 /* WeatherServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D52DBF81CAE1B1300BFB423 /* WeatherServiceManager.m */; };
+		1D52DBFC1CAE1C3500BFB423 /* ZipListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D52DBFB1CAE1C3500BFB423 /* ZipListTableViewController.m */; };
+		1D52DC021CAE226C00BFB423 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D52DC011CAE226C00BFB423 /* BaseTableViewController.m */; };
+		1D5D1BF11CB18D5C0038EF68 /* ziplist.json in Resources */ = {isa = PBXBuildFile; fileRef = 1D5D1BF01CB18D5B0038EF68 /* ziplist.json */; };
+		1D5D1BF31CB205EC0038EF68 /* WeatherServiceManagerTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5D1BF21CB205EC0038EF68 /* WeatherServiceManagerTestCase.m */; };
+		1D5EEA181CB09497001A9262 /* WeatherZone+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5EEA111CB09497001A9262 /* WeatherZone+CoreDataProperties.m */; };
+		1D5EEA191CB09497001A9262 /* WeatherZone.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5EEA131CB09497001A9262 /* WeatherZone.m */; };
+		1D5EEA1A1CB09497001A9262 /* Weather+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5EEA151CB09497001A9262 /* Weather+CoreDataProperties.m */; };
+		1D5EEA1B1CB09497001A9262 /* Weather.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5EEA171CB09497001A9262 /* Weather.m */; };
+		1D5EEA1E1CB095F2001A9262 /* WeatherInfoService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5EEA1D1CB095F2001A9262 /* WeatherInfoService.m */; };
+		1D5EEA211CB096E9001A9262 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5EEA201CB096E9001A9262 /* Constants.m */; };
+		1D5EEA271CB0B909001A9262 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5EEA261CB0B909001A9262 /* CoreDataManager.m */; };
 		1DA8D82E1CACCD56009780C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA8D82D1CACCD56009780C6 /* main.m */; };
 		1DA8D8311CACCD56009780C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA8D8301CACCD56009780C6 /* AppDelegate.m */; };
-		1DA8D8341CACCD56009780C6 /* OmarsWheterService.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1DA8D8321CACCD56009780C6 /* OmarsWheterService.xcdatamodeld */; };
-		1DA8D8371CACCD56009780C6 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA8D8361CACCD56009780C6 /* MasterViewController.m */; };
-		1DA8D83A1CACCD56009780C6 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA8D8391CACCD56009780C6 /* DetailViewController.m */; };
 		1DA8D83D1CACCD56009780C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DA8D83B1CACCD56009780C6 /* Main.storyboard */; };
 		1DA8D83F1CACCD56009780C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DA8D83E1CACCD56009780C6 /* Images.xcassets */; };
 		1DA8D8421CACCD56009780C6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DA8D8401CACCD56009780C6 /* LaunchScreen.xib */; };
 		1DA8D84E1CACCD56009780C6 /* OmarsWheterServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA8D84D1CACCD56009780C6 /* OmarsWheterServiceTests.m */; };
+		42ABD351056C84E27C910BB0 /* libPods-OmarsWheterService.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A35316BEF25FF0EA6F3DF464 /* libPods-OmarsWheterService.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,22 +42,47 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D52DBEC1CAE199400BFB423 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = Controllers/DetailViewController.h; sourceTree = "<group>"; };
+		1D52DBED1CAE199400BFB423 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = Controllers/DetailViewController.m; sourceTree = "<group>"; };
+		1D52DBEE1CAE199400BFB423 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MasterViewController.h; path = Controllers/MasterViewController.h; sourceTree = "<group>"; };
+		1D52DBEF1CAE199400BFB423 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MasterViewController.m; path = Controllers/MasterViewController.m; sourceTree = "<group>"; };
+		1D52DBF51CAE19F800BFB423 /* OmarsWheterService.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OmarsWheterService.xcdatamodel; sourceTree = "<group>"; };
+		1D52DBF71CAE1B1300BFB423 /* WeatherServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherServiceManager.h; sourceTree = "<group>"; };
+		1D52DBF81CAE1B1300BFB423 /* WeatherServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherServiceManager.m; sourceTree = "<group>"; };
+		1D52DBFA1CAE1C3500BFB423 /* ZipListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZipListTableViewController.h; path = Controllers/ZipListTableViewController.h; sourceTree = "<group>"; };
+		1D52DBFB1CAE1C3500BFB423 /* ZipListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZipListTableViewController.m; path = Controllers/ZipListTableViewController.m; sourceTree = "<group>"; };
+		1D52DC001CAE226C00BFB423 /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseTableViewController.h; path = Controllers/BaseTableViewController.h; sourceTree = "<group>"; };
+		1D52DC011CAE226C00BFB423 /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseTableViewController.m; path = Controllers/BaseTableViewController.m; sourceTree = "<group>"; };
+		1D5D1BF01CB18D5B0038EF68 /* ziplist.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ziplist.json; sourceTree = "<group>"; };
+		1D5D1BF21CB205EC0038EF68 /* WeatherServiceManagerTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherServiceManagerTestCase.m; sourceTree = "<group>"; };
+		1D5EEA101CB09497001A9262 /* WeatherZone+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "WeatherZone+CoreDataProperties.h"; path = "Models/WeatherZone+CoreDataProperties.h"; sourceTree = "<group>"; };
+		1D5EEA111CB09497001A9262 /* WeatherZone+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "WeatherZone+CoreDataProperties.m"; path = "Models/WeatherZone+CoreDataProperties.m"; sourceTree = "<group>"; };
+		1D5EEA121CB09497001A9262 /* WeatherZone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeatherZone.h; path = Models/WeatherZone.h; sourceTree = "<group>"; };
+		1D5EEA131CB09497001A9262 /* WeatherZone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeatherZone.m; path = Models/WeatherZone.m; sourceTree = "<group>"; };
+		1D5EEA141CB09497001A9262 /* Weather+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Weather+CoreDataProperties.h"; path = "Models/Weather+CoreDataProperties.h"; sourceTree = "<group>"; };
+		1D5EEA151CB09497001A9262 /* Weather+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Weather+CoreDataProperties.m"; path = "Models/Weather+CoreDataProperties.m"; sourceTree = "<group>"; };
+		1D5EEA161CB09497001A9262 /* Weather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Weather.h; path = Models/Weather.h; sourceTree = "<group>"; };
+		1D5EEA171CB09497001A9262 /* Weather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Weather.m; path = Models/Weather.m; sourceTree = "<group>"; };
+		1D5EEA1C1CB095F2001A9262 /* WeatherInfoService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherInfoService.h; sourceTree = "<group>"; };
+		1D5EEA1D1CB095F2001A9262 /* WeatherInfoService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherInfoService.m; sourceTree = "<group>"; };
+		1D5EEA1F1CB096E9001A9262 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		1D5EEA201CB096E9001A9262 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		1D5EEA251CB0B909001A9262 /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
+		1D5EEA261CB0B909001A9262 /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
 		1DA8D8281CACCD56009780C6 /* OmarsWheterService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OmarsWheterService.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DA8D82C1CACCD56009780C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DA8D82D1CACCD56009780C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1DA8D82F1CACCD56009780C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1DA8D8301CACCD56009780C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1DA8D8331CACCD56009780C6 /* OmarsWheterService.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OmarsWheterService.xcdatamodel; sourceTree = "<group>"; };
-		1DA8D8351CACCD56009780C6 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		1DA8D8361CACCD56009780C6 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		1DA8D8381CACCD56009780C6 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		1DA8D8391CACCD56009780C6 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		1DA8D83C1CACCD56009780C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1DA8D83E1CACCD56009780C6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1DA8D8411CACCD56009780C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1DA8D8471CACCD56009780C6 /* OmarsWheterServiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OmarsWheterServiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DA8D84C1CACCD56009780C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DA8D84D1CACCD56009780C6 /* OmarsWheterServiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OmarsWheterServiceTests.m; sourceTree = "<group>"; };
+		5C8140E4C61F9B8C89C29EDC /* Pods-OmarsWheterService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OmarsWheterService.release.xcconfig"; path = "Pods/Target Support Files/Pods-OmarsWheterService/Pods-OmarsWheterService.release.xcconfig"; sourceTree = "<group>"; };
+		A35316BEF25FF0EA6F3DF464 /* libPods-OmarsWheterService.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OmarsWheterService.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB7412948BCA1644248847C4 /* Pods-OmarsWheterService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OmarsWheterService.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OmarsWheterService/Pods-OmarsWheterService.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42ABD351056C84E27C910BB0 /* libPods-OmarsWheterService.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +104,76 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		076775A49246B1BF0B3B173F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB7412948BCA1644248847C4 /* Pods-OmarsWheterService.debug.xcconfig */,
+				5C8140E4C61F9B8C89C29EDC /* Pods-OmarsWheterService.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1D52DBE41CAE162800BFB423 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1D5EEA1C1CB095F2001A9262 /* WeatherInfoService.h */,
+				1D5EEA1D1CB095F2001A9262 /* WeatherInfoService.m */,
+				1D52DBF41CAE19F800BFB423 /* OmarsWheterService.xcdatamodeld */,
+				1D5EEA101CB09497001A9262 /* WeatherZone+CoreDataProperties.h */,
+				1D5EEA111CB09497001A9262 /* WeatherZone+CoreDataProperties.m */,
+				1D5EEA121CB09497001A9262 /* WeatherZone.h */,
+				1D5EEA131CB09497001A9262 /* WeatherZone.m */,
+				1D5EEA141CB09497001A9262 /* Weather+CoreDataProperties.h */,
+				1D5EEA151CB09497001A9262 /* Weather+CoreDataProperties.m */,
+				1D5EEA161CB09497001A9262 /* Weather.h */,
+				1D5EEA171CB09497001A9262 /* Weather.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		1D52DBEB1CAE195400BFB423 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1D52DBEC1CAE199400BFB423 /* DetailViewController.h */,
+				1D52DBED1CAE199400BFB423 /* DetailViewController.m */,
+				1D52DBEE1CAE199400BFB423 /* MasterViewController.h */,
+				1D52DBEF1CAE199400BFB423 /* MasterViewController.m */,
+				1D52DBFA1CAE1C3500BFB423 /* ZipListTableViewController.h */,
+				1D52DBFB1CAE1C3500BFB423 /* ZipListTableViewController.m */,
+				1D52DC001CAE226C00BFB423 /* BaseTableViewController.h */,
+				1D52DC011CAE226C00BFB423 /* BaseTableViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		1D52DBF21CAE19A600BFB423 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1DA8D83B1CACCD56009780C6 /* Main.storyboard */,
+				1DA8D8401CACCD56009780C6 /* LaunchScreen.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		1D52DBF31CAE19C800BFB423 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1D5EEA1F1CB096E9001A9262 /* Constants.h */,
+				1D5EEA201CB096E9001A9262 /* Constants.m */,
+				1DA8D83E1CACCD56009780C6 /* Images.xcassets */,
+				1D5D1BF01CB18D5B0038EF68 /* ziplist.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		1DA8D81F1CACCD56009780C6 = {
 			isa = PBXGroup;
 			children = (
 				1DA8D82A1CACCD56009780C6 /* OmarsWheterService */,
 				1DA8D84A1CACCD56009780C6 /* OmarsWheterServiceTests */,
 				1DA8D8291CACCD56009780C6 /* Products */,
+				076775A49246B1BF0B3B173F /* Pods */,
+				27EB7C81C4D30BD765D2808E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,17 +189,17 @@
 		1DA8D82A1CACCD56009780C6 /* OmarsWheterService */ = {
 			isa = PBXGroup;
 			children = (
+				1D52DBF31CAE19C800BFB423 /* Resources */,
+				1D52DBF21CAE19A600BFB423 /* Views */,
+				1D52DBEB1CAE195400BFB423 /* Controllers */,
+				1D52DBE41CAE162800BFB423 /* Models */,
+				1DA8D82B1CACCD56009780C6 /* Supporting Files */,
 				1DA8D82F1CACCD56009780C6 /* AppDelegate.h */,
 				1DA8D8301CACCD56009780C6 /* AppDelegate.m */,
-				1DA8D8351CACCD56009780C6 /* MasterViewController.h */,
-				1DA8D8361CACCD56009780C6 /* MasterViewController.m */,
-				1DA8D8381CACCD56009780C6 /* DetailViewController.h */,
-				1DA8D8391CACCD56009780C6 /* DetailViewController.m */,
-				1DA8D83B1CACCD56009780C6 /* Main.storyboard */,
-				1DA8D83E1CACCD56009780C6 /* Images.xcassets */,
-				1DA8D8401CACCD56009780C6 /* LaunchScreen.xib */,
-				1DA8D8321CACCD56009780C6 /* OmarsWheterService.xcdatamodeld */,
-				1DA8D82B1CACCD56009780C6 /* Supporting Files */,
+				1D52DBF71CAE1B1300BFB423 /* WeatherServiceManager.h */,
+				1D52DBF81CAE1B1300BFB423 /* WeatherServiceManager.m */,
+				1D5EEA251CB0B909001A9262 /* CoreDataManager.h */,
+				1D5EEA261CB0B909001A9262 /* CoreDataManager.m */,
 			);
 			path = OmarsWheterService;
 			sourceTree = "<group>";
@@ -115,6 +218,7 @@
 			children = (
 				1DA8D84D1CACCD56009780C6 /* OmarsWheterServiceTests.m */,
 				1DA8D84B1CACCD56009780C6 /* Supporting Files */,
+				1D5D1BF21CB205EC0038EF68 /* WeatherServiceManagerTestCase.m */,
 			);
 			path = OmarsWheterServiceTests;
 			sourceTree = "<group>";
@@ -127,6 +231,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		27EB7C81C4D30BD765D2808E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A35316BEF25FF0EA6F3DF464 /* libPods-OmarsWheterService.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DA8D8511CACCD56009780C6 /* Build configuration list for PBXNativeTarget "OmarsWheterService" */;
 			buildPhases = (
+				B8EA49509F86CC6A654A2ACF /* Check Pods Manifest.lock */,
 				1DA8D8241CACCD56009780C6 /* Sources */,
 				1DA8D8251CACCD56009780C6 /* Frameworks */,
 				1DA8D8261CACCD56009780C6 /* Resources */,
+				2759801F34ABA54AB8BAEE18 /* Embed Pods Frameworks */,
+				A1173C9097B1BCCD21BF709E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -171,7 +286,7 @@
 		1DA8D8201CACCD56009780C6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Omar Jair Castro Arreola";
 				TargetAttributes = {
 					1DA8D8271CACCD56009780C6 = {
@@ -210,6 +325,7 @@
 				1DA8D83D1CACCD56009780C6 /* Main.storyboard in Resources */,
 				1DA8D8421CACCD56009780C6 /* LaunchScreen.xib in Resources */,
 				1DA8D83F1CACCD56009780C6 /* Images.xcassets in Resources */,
+				1D5D1BF11CB18D5C0038EF68 /* ziplist.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,16 +338,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2759801F34ABA54AB8BAEE18 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OmarsWheterService/Pods-OmarsWheterService-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1173C9097B1BCCD21BF709E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OmarsWheterService/Pods-OmarsWheterService-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8EA49509F86CC6A654A2ACF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1DA8D8241CACCD56009780C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DA8D83A1CACCD56009780C6 /* DetailViewController.m in Sources */,
-				1DA8D8371CACCD56009780C6 /* MasterViewController.m in Sources */,
+				1D5EEA1B1CB09497001A9262 /* Weather.m in Sources */,
+				1D52DBFC1CAE1C3500BFB423 /* ZipListTableViewController.m in Sources */,
+				1D52DBF61CAE19F800BFB423 /* OmarsWheterService.xcdatamodeld in Sources */,
 				1DA8D8311CACCD56009780C6 /* AppDelegate.m in Sources */,
+				1D52DC021CAE226C00BFB423 /* BaseTableViewController.m in Sources */,
+				1D5EEA211CB096E9001A9262 /* Constants.m in Sources */,
+				1D5EEA1A1CB09497001A9262 /* Weather+CoreDataProperties.m in Sources */,
 				1DA8D82E1CACCD56009780C6 /* main.m in Sources */,
-				1DA8D8341CACCD56009780C6 /* OmarsWheterService.xcdatamodeld in Sources */,
+				1D5EEA181CB09497001A9262 /* WeatherZone+CoreDataProperties.m in Sources */,
+				1D5EEA191CB09497001A9262 /* WeatherZone.m in Sources */,
+				1D5EEA271CB0B909001A9262 /* CoreDataManager.m in Sources */,
+				1D5EEA1E1CB095F2001A9262 /* WeatherInfoService.m in Sources */,
+				1D52DBF01CAE199400BFB423 /* DetailViewController.m in Sources */,
+				1D52DBF91CAE1B1300BFB423 /* WeatherServiceManager.m in Sources */,
+				1D52DBF11CAE199400BFB423 /* MasterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +413,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D5D1BF31CB205EC0038EF68 /* WeatherServiceManagerTestCase.m in Sources */,
 				1DA8D84E1CACCD56009780C6 /* OmarsWheterServiceTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,6 +469,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -309,7 +485,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -347,7 +523,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -357,20 +533,24 @@
 		};
 		1DA8D8521CACCD56009780C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB7412948BCA1644248847C4 /* Pods-OmarsWheterService.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OmarsWheterService/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omar.jair.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		1DA8D8531CACCD56009780C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C8140E4C61F9B8C89C29EDC /* Pods-OmarsWheterService.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OmarsWheterService/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omar.jair.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -389,6 +569,7 @@
 				);
 				INFOPLIST_FILE = OmarsWheterServiceTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omar.jair.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OmarsWheterService.app/OmarsWheterService";
 			};
@@ -404,6 +585,7 @@
 				);
 				INFOPLIST_FILE = OmarsWheterServiceTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omar.jair.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OmarsWheterService.app/OmarsWheterService";
 			};
@@ -428,6 +610,7 @@
 				1DA8D8531CACCD56009780C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1DA8D8541CACCD56009780C6 /* Build configuration list for PBXNativeTarget "OmarsWheterServiceTests" */ = {
 			isa = XCConfigurationList;
@@ -436,17 +619,19 @@
 				1DA8D8561CACCD56009780C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		1DA8D8321CACCD56009780C6 /* OmarsWheterService.xcdatamodeld */ = {
+		1D52DBF41CAE19F800BFB423 /* OmarsWheterService.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				1DA8D8331CACCD56009780C6 /* OmarsWheterService.xcdatamodel */,
+				1D52DBF51CAE19F800BFB423 /* OmarsWheterService.xcdatamodel */,
 			);
-			currentVersion = 1DA8D8331CACCD56009780C6 /* OmarsWheterService.xcdatamodel */;
-			path = OmarsWheterService.xcdatamodeld;
+			currentVersion = 1D52DBF51CAE19F800BFB423 /* OmarsWheterService.xcdatamodel */;
+			name = OmarsWheterService.xcdatamodeld;
+			path = Models/OmarsWheterService.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

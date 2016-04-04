@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15E65" minimumToolsVersion="Automatic">
+    <entity name="Weather" representedClassName="Weather" syncable="YES">
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="icon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="main" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="weatherZone" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="WeatherZone" inverseName="weather" inverseEntity="WeatherZone" syncable="YES"/>
+    </entity>
+    <entity name="WeatherZone" representedClassName="WeatherZone">
+        <attribute name="cod" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="humidity" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="lastUpdate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="lat" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="lon" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pressure" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="temp" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="temp_max" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="temp_min" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="windDeg" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="windSpeed" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="zip" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="weather" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Weather" inverseName="weatherZone" inverseEntity="Weather" syncable="YES"/>
+        <userInfo/>
+    </entity>
+    <elements>
+        <element name="Weather" positionX="261" positionY="306" width="128" height="120"/>
+        <element name="WeatherZone" positionX="261" positionY="189" width="128" height="268"/>
+    </elements>
+</model>

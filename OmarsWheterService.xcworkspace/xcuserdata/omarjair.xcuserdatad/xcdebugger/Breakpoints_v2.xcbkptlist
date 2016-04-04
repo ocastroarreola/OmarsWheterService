@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OmarsWheterService/Controllers/MasterViewController.m"
+            timestampString = "481417196.400467"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "-prepareForSegue:sender:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/EasyMapping/EasyMapping/EKMapper.m"
+            timestampString = "481423939.140737"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "+fillObject:fromExternalRepresentation:withMapping:"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[EKMapper fillObject:fromExternalRepresentation:withMapping:]"
+                  moduleName = "OmarsWheterService"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/omarjair/Developer/iOS/OmarsWheterService/Pods/EasyMapping/EasyMapping/EKMapper.m"
+                  timestampString = "481423944.907697"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "182">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__62+[EKMapper fillObject:fromExternalRepresentation:withMapping:]_block_invoke"
+                  moduleName = "OmarsWheterService"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/omarjair/Developer/iOS/OmarsWheterService/Pods/EasyMapping/EasyMapping/EKMapper.m"
+                  timestampString = "481423944.907822"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/EasyMapping/EasyMapping/EKMapper.m"
+            timestampString = "481425194.684566"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "+objectFromExternalRepresentation:withMapping:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OmarsWheterService/Controllers/DetailViewController.m"
+            timestampString = "481426115.031603"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "-configureView"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OmarsWheterServiceTests/OmarsWheterServiceTests.m"
+            timestampString = "481429483.970681"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "-testExample"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[OmarsWheterServiceTests testPathForImage]"
+                  moduleName = "OmarsWheterServiceTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/omarjair/Developer/iOS/OmarsWheterService/OmarsWheterServiceTests/OmarsWheterServiceTests.m"
+                  timestampString = "481429360.878148"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "211">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[OmarsWheterServiceTests testPathForImage]"
+                  moduleName = "OmarsWheterServiceTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/omarjair/Developer/iOS/OmarsWheterService/OmarsWheterServiceTests/OmarsWheterServiceTests.m"
+                  timestampString = "481429360.87837"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "245">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[OmarsWheterServiceTests testPathForImage]"
+                  moduleName = "OmarsWheterServiceTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/omarjair/Developer/iOS/OmarsWheterService/OmarsWheterServiceTests/OmarsWheterServiceTests.m"
+                  timestampString = "481429360.878634"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "921">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[OmarsWheterServiceTests testPathForImage]"
+                  moduleName = "OmarsWheterServiceTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/omarjair/Developer/iOS/OmarsWheterService/OmarsWheterServiceTests/OmarsWheterServiceTests.m"
+                  timestampString = "481429360.878872"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "1009">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[OmarsWheterServiceTests testPathForImage]"
+                  moduleName = "OmarsWheterServiceTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/omarjair/Developer/iOS/OmarsWheterService/OmarsWheterServiceTests/OmarsWheterServiceTests.m"
+                  timestampString = "481429360.878989"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "1131">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
